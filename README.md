@@ -1,8 +1,6 @@
 # 🧠 Stable Diffusion Image Generator  
 ### ✨ Aplicación web de generación de imágenes con IA — *FastAPI + Hugging Face Diffusers*
 
-![preview](https://github.com/yourusername/sd-app/assets/preview-example.png)
-
 <div align="center">
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
@@ -207,19 +205,6 @@ sd-app/
 
 ## 👨‍💻 Autor
 
-**Tu Nombre**  
+Adrián Bermúdez Muñoz  
 💼 Desarrollador de Aplicaciones Web & Machine Learning  
-📧 tu.email@ejemplo.com  
-🌐 [tu-portfolio.com](https://tu-portfolio.com)  
-🔗 [LinkedIn](https://linkedin.com/in/tuusuario) · [GitHub](https://github.com/yourusername)
-
----
-
-## 📝 Licencia
-
-Este proyecto se distribuye bajo la licencia **MIT**.  
-El modelo *Stable Diffusion* conserva su propia licencia según su proveedor en Hugging Face.
-
----
-
-⭐ **Si te gusta este proyecto, dale una estrella en GitHub y compártelo!**
+📧 adriannbdzz@gmail.com.com  
