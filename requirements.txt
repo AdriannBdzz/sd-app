@@ -1,0 +1,11 @@
+torch
+torchvision
+diffusers==0.30.0
+transformers
+accelerate
+safetensors
+fastapi
+uvicorn[standard]
+Pillow
+xformers
+python-dotenv

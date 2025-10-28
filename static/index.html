@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stable Diffusion Demo</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Stable Diffusion Demo</h1>
+    <p class="muted">Escribe un prompt y genera una imagen.</p>
+
+    <section class="card">
+      <label for="prompt">Prompt</label>
+      <textarea id="prompt" rows="3" placeholder="a cinematic photo of a corgi in sunglasses, 35mm, bokeh"></textarea>
+
+      <div class="grid">
+        <div>
+          <label for="steps">Steps</label>
+          <input id="steps" type="number" value="12" min="1" max="75"/>
+        </div>
+        <div>
+          <label for="guidance">Guidance</label>
+          <input id="guidance" type="number" value="7.0" min="0" max="20" step="0.1"/>
+        </div>
+        <div>
+          <label for="width">Width</label>
+          <input id="width" type="number" value="384" min="256" max="1024" step="64"/>
+        </div>
+        <div>
+          <label for="height">Height</label>
+          <input id="height" type="number" value="384" min="256" max="1024" step="64"/>
+        </div>
+        <div>
+          <label for="seed">Seed (opcional)</label>
+          <input id="seed" type="number" placeholder="ej. 1234"/>
+        </div>
+      </div>
+
+      <button id="generate">Generar imagen</button>
+      <p id="status" class="status"></p>
+    </section>
+
+    <section class="output card">
+      <h2>Resultado</h2>
+      <img id="out" alt="Resultado" />
+      <div class="meta">
+        <span id="meta-model"></span>
+        <span id="meta-elapsed"></span>
+        <span id="meta-seed"></span>
+      </div>
+      <a id="download" class="button outline" download="result.png">Descargar PNG</a>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
