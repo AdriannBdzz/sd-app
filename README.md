@@ -1,5 +1,5 @@
-# 🧠 Stable Diffusion Image Generator  
-### ✨ Aplicación web de generación de imágenes con IA — *FastAPI + Hugging Face Diffusers*
+#  Stable Diffusion Image Generator  
+###  Aplicación web de generación de imágenes con IA — *FastAPI + Hugging Face Diffusers*
 
 <div align="center">
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 🧩 Descripción
+##  Descripción
 
 **Stable Diffusion Image Generator** es una aplicación completa (backend + frontend) que permite generar imágenes a partir de texto utilizando el modelo **Stable Diffusion**.  
 Desarrollada en **FastAPI** y **Python**, integra la librería **Diffusers** de Hugging Face y un frontend ligero en **HTML/CSS/JS**.
@@ -22,7 +22,7 @@ Desarrollada en **FastAPI** y **Python**, integra la librería **Diffusers** de 
 
 ---
 
-## 🚀 Características principales
+##  Características principales
 
 ✅ Generación de imágenes a partir de texto (*text-to-image*)  
 ✅ API REST con FastAPI  
@@ -33,7 +33,7 @@ Desarrollada en **FastAPI** y **Python**, integra la librería **Diffusers** de 
 
 ---
 
-## 🧠 Tecnologías
+##  Tecnologías
 
 | Área | Tecnologías |
 |------|--------------|
@@ -87,11 +87,11 @@ o manualmente:
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-📍 Abre [http://localhost:8000](http://localhost:8000) en tu navegador.
+ Abre [http://localhost:8000](http://localhost:8000) en tu navegador.
 
 ---
 
-## 🖼️ Uso de la aplicación
+##  Uso de la aplicación
 
 1. Escribe un **prompt** descriptivo (por ejemplo:  
    > “a futuristic cyberpunk city at night, ultra detailed, cinematic lighting”)  
@@ -105,7 +105,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
 ---
 
-## 🧪 API Reference
+##  API Reference
 
 ### 🔹 `GET /health`
 Verifica el estado del servidor y modelo cargado.
@@ -137,7 +137,7 @@ Genera una imagen a partir de texto.
 
 ---
 
-## 🐳 Despliegue con Docker
+##  Despliegue con Docker
 
 ```bash
 docker build -t sd-app .
@@ -148,7 +148,7 @@ docker run --gpus all -p 8000:8000 sd-app
 
 ---
 
-## 🧠 Optimización de rendimiento
+##  Optimización de rendimiento
 
 | Caso | Recomendaciones |
 |------|-----------------|
@@ -193,7 +193,7 @@ sd-app/
 
 ---
 
-## 🔮 Mejoras futuras
+##  Mejoras futuras
 
 - [ ] Endpoint **img2img** (transformar imágenes)
 - [ ] Integración **ControlNet**
@@ -203,8 +203,9 @@ sd-app/
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 Adrián Bermúdez Muñoz  
 💼 Desarrollador de Aplicaciones Web & Machine Learning  
 📧 adriannbdzz@gmail.com.com  
+
